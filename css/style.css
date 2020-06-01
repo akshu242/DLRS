@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+a, a:hover,a:visited, a:focus {
+    text-decoration:none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background:  #02c39A;;
+    font-family: 'Poppins', sans-serif;
+}
+.div-space{
+    display: flex;
+    flex: 0 1em;
+}
+.logo{
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    size: 20px;
+}
+.logo h4{
+    align-self: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #02c39A;
+    width: 30%;
+    
+}
+.nav-links li{
+    text-decoration: none;
+    justify-content: center;
+}
+.nav-links li a.active,a:hover{
+    background-color: #028090;
+    padding: 5px;
+    transition: .5s;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+
+.nav-links a{
+    color:#f2f2f2;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Central Overlay and Content */
+
+.overlay-container{
+
+    height: 92vh;
+    background-size: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right-container{
+    width: 50%;
+    margin-left: 50%;
+    background: url(/images/undraw_doctor_kw5l.svg);
+    height: 92vh;
+    background-size: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.left-container{
+    z-index: 2;
+    border-radius:15px;
+    border: #05668D double .5px ;
+    width: 50vh;
+    height: 50%;
+    position: absolute;
+    left: 10%;
+    
+    padding: 40px;
+    top: 18%;
+    font-family: 'Poppins', sans-serif;
+}
+.left-container h1{
+    color: #f2f2f2;
+}
+.left-container p{
+    color: #f2f2f2;
+    font-size: 16px;    
+}
+
+.overlay{
+    z-index: 1;
+    background: #0280905c;
+    width: 100%;
+    height: 92vh;
+    position:absolute;
+    top: 0vh;
+    left: 0;
+
+}
+/* Central Overlay and content end */
+
+/* Footer css */
+.footer .widget .title {
+    margin-bottom: 25px;
+}
+.w-about .logo {
+    color: inherit;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+
+.widget p {
+    font-size: 13px;
+}
+.w-about ul, .w-list ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+.socials li {
+    display: inline-block;
+}
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+
+.socials i, .socials svg {
+    font-size: 15px;
+    transition: all .5s ease;
+}
+.w-list a {
+    text-decoration: none;
+    color: #888da8;
+    padding: 8px 0;
+    display: block;
+    font-weight: 500;
+}
+.w-list a:hover,a:focus{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #05668D;
+}
+.socials li a {
+    color: #9a9fbf;
+}
+
+.socials li+li {
+    margin-left: 20px;
+}
+.sub-footer-copyright {
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #e6ecf5;
+    margin-top: 60px;
+}
+
+/* footer css end */
+
+
+
